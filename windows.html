@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Wikipedia - DIO</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <img src="assets/images/logo.png" width="200" alt="Logo do site" />
+    </header>
+
+    <main>
+      <div class="bar"></div>
+
+      <div class="content">
+        <nav class="sidebar">
+          <h2>Menu</h2>
+          <ul>
+            <li><a href="index.html">Sistemas Operacionais</a></li>
+            <li><a href="windows.html">Windows</a></li>
+            <li><a href="linux.html">Linux</a></li>
+            <li><a href="mac.html">MacOS</a></li>
+          </ul>
+        </nav>
+
+        <div class="main">
+          <h1>Windows</h1>
+          <h2 id="intro">Introdução</h2>
+          <p>
+            Microsoft Windows (ou simplesmente Windows) é uma família de
+            sistemas operacionais desenvolvidos, comercializados e vendidos pela
+            Microsoft. É constituída por várias famílias de sistemas
+            operacionais, cada qual atendendo a um determinado setor da
+            indústria da computação, sendo que o sistema geralmente é associado
+            com a arquitetura IBM PC compatível. As famílias ativas do Windows
+            incluem Windows NT e Windows Embedded; estes podem abranger
+            subfamílias, como Windows CE ou Windows Server. Entre algumas das
+            famílias Windows extintas estão o Windows 9x, o Windows 10 Mobile e
+            o Windows Phone.
+          </p>
+          <p>
+            A Microsoft introduziu um ambiente operacional chamado Windows em 20
+            de novembro de 1985, como um shell para MS-DOS, em resposta ao
+            crescente interesse em interfaces gráficas de usuário (GUIs).
+          </p>
+          <p>
+            O Microsoft Windows passou a dominar o mercado de computadores
+            pessoais (PC) do mundo, com mais de 90% de participação de mercado,
+            superando o macOS, que havia sido introduzido em 1984. A Apple
+            chegou a ver o Windows como uma invasão injusta em sua inovação no
+            desenvolvimento de produtos GUI, como o Lisa e o Macintosh
+            (eventualmente resolvido na Justiça em favor da Microsoft em 1993).
+            Nos PCs, o Windows ainda é o sistema operacional mais popular.
+          </p>
+          <p>
+            No entanto, em 2014, a Microsoft admitiu a perda da maioria do
+            mercado global de sistemas operacionais do sistema operacional móvel
+            Android, devido ao enorme crescimento nas vendas de smartphones. Em
+            2014, o número de dispositivos Windows vendidos era menos de 25% dos
+            dispositivos Android vendidos. Essas comparações, no entanto, podem
+            não ser totalmente relevantes, já que os dois sistemas operacionais
+            visam plataformas tradicionalmente diferentes. Em setembro de 2022,
+            a versão mais recente do Windows para PCs, tablets, smartphones e
+            dispositivos embutidos é o Windows 11. A versão mais recente para
+            servidores é o Windows Server 2022. Uma versão especializada do
+            Windows é executada no console de jogos Xbox One, Xbox Series X e
+            Series S.
+          </p>
+          <figure>
+            <img src="./assets/images/Windows_10_interface.jpg" alt="Foto da tela do sistema operacional Windows">
+            <figcaption>Foto da tela do sistema operacional Windows</figcaption>
+          </figure>
+          <h2 id="hist">Historia</h2>
+          <p>
+            A Microsoft começou a desenvolver o Microsoft Windows em setembro de
+            1981. Os primeiros Windows, como o 1.0, 2.0, são compatíveis apenas
+            com partições formatadas em sistema de ficheiros FAT, nesse caso, o
+            FAT 16. O 3.x poderia ser instalado em FAT 32, porém necessita ser
+            instalado o MS-DOS 7.10, que era incluído nos disquetes de
+            inicialização do Windows 95 OSR2 e Windows 98, necessitando
+            modificar alguns arquivos para permitir seu funcionamento. Ao mudar
+            do 3.1 para o 95B (Windows 95 OSR 2/OSR 2.1), os HD's poderiam ser
+            formatados em FAT 32. Inicialmente lançado com o Windows NT, a
+            tecnologia NTFS é ainda hoje (2020) o padrão de fato para esta
+            classe. Com a convergência de ambos sistemas, o Windows XP passou
+            também a preferir este formato.[carece de fontes]
+          </p>
+          <h2 id="caract">Características técnicas</h2>
+          <p>
+            A principal linguagem de programação usada para escrever o
+            código-fonte das várias versões do Windows é o C e algumas partes
+            com C++ e Assembly. Até a versão 3.11, o sistema rodava em 16 bits
+            (apesar da possibilidade de instalar um update chamado Win32s para
+            adicionar suporte a programas 32 bits), e daí em diante, em 32 bits.
+            Desde o Windows XP e Windows Server 2003 existe suporte para a
+            tecnologia 64 bits. A partir do Windows 11, não há mais suporte para
+            sistemas 32 bits. Os sistemas de 64 bits não possuem mais suporte
+            para rodar nativamente aplicativos de 16 bits, sendo necessário o
+            uso de emuladores/máquinas virtuais.
+          </p>
+          <p>
+            Os bits são relacionados ao volume de dados que um microprocessador
+            é capaz de lidar. Se um processador tem uma arquitetura de 64 bits,
+            ele é capaz de lidar com dados na ordem de 264, ou seja, 18 446 744
+            073 709 552 000. Só que para isso ser possível, é necessário que o
+            sistema operacional seja de 64 bits, caso contrário ele trabalhará
+            com somente com instruções de 32 bits (Se o sistema for de 32 bits).
+            Sistemas operacionais de 64 bits também endereçam uma quantidade
+            maior de RAM, suportando até 192 GB (Windows 7 Ultimate) ou 128 GB
+            (Windows XP Professional), contra 3,2 GB dos sistemas de 32 bits.
+          </p>
+          <p>
+            Outra característica denominada de herança maldita devido o fato de
+            ter herdado essa regra do DOS é o fato de não se poder criar pastas
+            com os determinado nomes: con, prn, aux, com1 e lpt1. Trata-se de
+            uma antiga herança que os SOs Windows carregam do MS-DOS e são
+            palavras reservadas para a comunicação interna do SO.
+          </p>
+          <p>
+            Através do Prompt de Comandos é possível criar pastas e arquivos com
+            qualquer um dos nomes acima. Mas o sistema impede que os documentos
+            sejam editados e excluídos pelo Windows Explorer.
+          </p>
+        </div>
+
+        <nav class="anchors">
+          <h2>Neste Artigo</h2>
+          <ul>
+            <li><a href="#intro">Introdução</a></li>
+            <li><a href="#hist">História</a></li>
+            <li><a href="#caract">Características técnicas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
